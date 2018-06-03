@@ -1,0 +1,94 @@
+body {
+    background:#6699FF;
+	background-image:url("gradientblue.jpg");
+	color: #d5e3ff;
+	font-family: Verdana,Arial,sans-serif;	
+}
+h1{
+	line-height: 200%;
+	color:#FFFFFF;
+	font-weight:bold;
+	text-align:center;
+	background :url("bigfish.gif") no-repeat;
+	background-size : cover;
+	text-shadow: 1px 2px #dedede;
+	
+}
+li{
+	text-shadow: 1px 2px #aaa;
+	color:#003F6E;
+}
+footer{
+	color:#460DA5;
+}
+#heading{
+	text-shadow: 1px 2px #aaa;
+	color:#003F6E;
+	font-weight:bold;
+}
+#heading1{
+	text-shadow: 1px 2px #aaa;
+	color:#2A2AC0;
+	font-weight:bold;
+}
+#paragraphindex{
+	text-indent:5em;
+	color:#460DA5;
+}
+#paragraph{
+	color:#460DA5;
+	margin:0px;
+}
+#nav a:visited{
+	color : #037aba;
+}
+#nav a:link{
+	color : #2a2ac0;
+}
+#nav{
+	display : table;
+	font-weight : bold;
+	font-size : 1.1em;
+}
+footer{
+	font-size : 0.7em;
+	font-weight : italic;
+}
+#wrapper{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	display:table;
+	background-color:#FFFFFF;
+}
+#sidebar{
+	float:left;
+	margin-left:2%;
+	margin-right:-2%;
+	width:20%;
+	display: table-cell;
+}
+#menutable{
+	
+}
+#nonboxtable{
+	border:2px solid transparent;
+	padding:5px;
+	
+}
+#maincontent a{ 
+	text-decoration:underline;
+}
+a{
+	text-decoration:none;
+}
+#maincontent{
+	float:right;
+	width:80%;
+	display: table-cell;
+}
+#boxtable, tr, td{
+	border:2px solid black;
+	border-collapse:collapse;
+	padding:5px;
+}
